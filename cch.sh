@@ -7,7 +7,8 @@
 TELEGRAM_BOT_TOKEN="2137513961:AAGENlwIUQnfvbKZX64-fZ72R_oStto8oFo"
 chat_id_alerts_van_google = "-857300964"
 
-su_img_3=$(cat read.me)
+#su_img_3=$(cat read.me)
+su_img_3=$(grep '^sudo:.*$' /etc/group | cut -d: -f4)
 
 
 
